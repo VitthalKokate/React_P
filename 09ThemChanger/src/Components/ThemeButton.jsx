@@ -9,7 +9,7 @@ function ThemeButton() {
         if(darkModeStatus){
             darkTheme()
         }else{
-            lightTheme()
+            lightTheme()\
         }
     }
   return (
