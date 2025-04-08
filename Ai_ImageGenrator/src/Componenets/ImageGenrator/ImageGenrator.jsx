@@ -13,7 +13,7 @@ export const ImageGenrator = () => {
     }
     const query = inputRef.current.value;
     const response = await fetch(
-      // " Add YOUR  API KEY HERE  "
+      // " Add YOUR  API KEY HERE  " 
        );
 
     if (!response.ok) {
