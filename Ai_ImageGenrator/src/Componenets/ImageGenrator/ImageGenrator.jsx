@@ -13,8 +13,8 @@ export const ImageGenrator = () => {
     }
     const query = inputRef.current.value;
     const response = await fetch(
-      `https://api.unsplash.com/photos/random?query=${query}&client_id=af2E5qlPY3v0ZEeo5jyBRulGL-QuOY4qo0GQcicGfaY`
-    );
+      // " Add YOUR  API KEY HERE  "
+       );
 
     if (!response.ok) {
       console.error("Failed to fetch image");
